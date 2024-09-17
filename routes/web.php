@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/', function () {
-    return Inertia::render('DashboardLayout', [
+    return Inertia::render('Admin/Dashboard', [
         // 'canLogin' => Route::has('login'),
         // 'canRegister' => Route::has('register'),
         // 'laravelVersion' => Application::VERSION,
